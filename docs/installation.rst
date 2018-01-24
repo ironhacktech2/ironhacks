@@ -4,6 +4,23 @@ Installation
 
 Install the package with pip::
 
+    $ node.js
+    $ mongoDB
+    
+
+Install the package with pip::
+
+    $ pip install read-the-docs-template
+    $ pip install read-the-docs-template
+
+
+Install the package with pip::
+
+    $ pip install read-the-docs-template
+    
+
+Install the package with pip::
+
     $ pip install read-the-docs-template
     
 
