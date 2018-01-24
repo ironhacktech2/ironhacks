@@ -9,8 +9,8 @@ Install the package with pip::
 
 To run this application, you will have to have Node.js and MongoDB installed on your machine.
 
-    $ [Node.js](https://nodejs.org/en/)
-    $ [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
+    $ node.js
+    $ mongoDB
 
 Then you can proceed to the next steps:
 
