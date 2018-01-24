@@ -1,28 +1,17 @@
 ============
 Installation
 ============
+ 
 
-To run this application, you'll have to have Node.js and MongoDB installed on your machine.
+To run this application, you will have to have Node.js and MongoDB installed on your machine:
 
     $ node.js
     $ mongoDB
     
 
-Then you can proceed to the next steps:
-
-1. Clone your repo from GitHub: 
-
-    $ git clone https://github.com/RCODI/ironhacks
-   
-
-Install the package with pip::
+Clone your repo from GitHub:
 
     $ git clone
-    
-
-Install the package with pip::
-
-    $ pip install read-the-docs-template
     
 
 To run this application, you will have to have Node.js and MongoDB installed on your machine.
