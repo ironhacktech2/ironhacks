@@ -5,8 +5,8 @@ Installation
 
 To run this application, you will have to have Node.js and MongoDB installed on your machine:
 
-    $ node.js
-    $ mongoDB
+    node.js
+    mongoDB
     
 
 Clone your repo from GitHub:
