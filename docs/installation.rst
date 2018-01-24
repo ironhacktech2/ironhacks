@@ -17,7 +17,7 @@ Then you can proceed to the next steps:
 
 Install the package with pip::
 
-    $ pip install read-the-docs-template
+    $ git clone
     
 
 Install the package with pip::
