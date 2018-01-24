@@ -7,26 +7,24 @@ Install the package with pip::
     $ pip install read-the-docs-template
     
 
-### Installation
-
 To run this application, you will have to have Node.js and MongoDB installed on your machine.
 
- - [Node.js](https://nodejs.org/en/)
- - [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
+    $ [Node.js](https://nodejs.org/en/)
+    $ [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
 
 Then you can proceed to the next steps:
 
  1. Clone the repo either from GitHub or Heroku:
 
-  ```sh
-  git clone https://github.com/hackpurdue/courseswebpage.git
-  ```
+  
+    $ git clone https://github.com/hackpurdue/courseswebpage.git
+  
 
   or Heroku (this is not recommended, but it will still work as long you have access to the project):
 
-  ```sh
-  git clone https://git.heroku.com/ironhackplatform.git courseswebpage
-  ```
+  
+    $ git clone https://git.heroku.com/ironhackplatform.git courseswebpage
+  
 
   **Note**: This is not recommended because the code pushed to Heroku is a little
   bit different than the version we push to GitHub. When deploying the app on
@@ -45,22 +43,22 @@ Then you can proceed to the next steps:
    2. The boot time of the app will be much faster (because no bundles have to
       be generated on Heroku).
 
- 2. Open the folder:
+2. Open the folder:
 
-  ```sh
-  cd courseswebpage
-  ```
+  
+   $ cd courseswebpage
+  
 
- 3. Install the dependencies:
+3. Install the dependencies:
 
-  ```sh
-  npm install
-  ```
+  
+  $ npm install
+  
 
-Start MongoDB:
+    Start MongoDB:
 
-```sh
-mongod
-# or
-sudo mongod
-```
+
+  $ mongod
+    # or
+    sudo mongod
+
