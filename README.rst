@@ -142,27 +142,27 @@ The `app` directory contains the application files
 
 The application routes (urls) are:
 
-```sh
-GET         /
-GET         /404
-GET         /500
-GET/POST    /admin
-GET         /countdown
-GET/POST    /logout
-GET/POST    /new
-GET/POST    /register
-GET         /login
-GET         /scores
-GET         /search
-GET         /quizzes
-GET/POST    /posts/topicId-_slug/
-POST        /posts/topicId-_slug/comments
-POST        /posts/topicId-_slug/delete
-GET/POST    /posts/topicId-_slug/edit
-POST        /posts/topicId-_slug/toggle-vote
-GET/POST    /users/_user/edit
-GET         /users/_user
-```
+
+•GET         /
+•GET         /404
+•GET         /500
+•GET/POST    /admin
+•GET         /countdown
+•GET/POST    /logout
+•GET/POST    /new
+•GET/POST    /register
+•GET         /login
+•GET         /scores
+•GET         /search
+•GET         /quizzes
+•GET/POST    /posts/topicId-_slug/
+•POST        /posts/topicId-_slug/comments
+•POST        /posts/topicId-_slug/delete
+•GET/POST    /posts/topicId-_slug/edit
+•POST        /posts/topicId-_slug/toggle-vote
+•GET/POST    /users/_user/edit
+•GET         /users/_user
+
 
 The `GET` method means that we fetch information from the server, while the `POST` means we post information to the server side.
 
