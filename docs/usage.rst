@@ -26,22 +26,6 @@ a login button and a <kbd>Sign up</kbd> button.
 When the login button is clicked, the `/login` url is opened.
 The login url redirects to the GitHub authentication workflow (OAuth2) where the user should accept access of our GitHub app in their GitHub account.
 
-
-```
-IronHack Platform                             GitHub.com
------------------                             ----------
-/login  ----------------------------------------> Do you want to accept access of the app?
-                                            (the message won't appear if accept was already granted)
-                                                    |
-                                                    *------------ GitHub App: IronHack
-                                                    |
-                                        ___________/ \___________
-                                       /                         \
-                                     Yes                          No
-/login-callback  <-------------------/                            |
-/                <------------------------------------------------/
-```
-
 The difference between the <kbd>Sign in</kbd> and <kbd>Sign up</kbd> buttons is that for the sign in,
 we assume that the user already has an account, therefore we make the redirection
 to GitHub APIs and authenticate them with their GitHub account. In case they do
@@ -74,20 +58,8 @@ Using a JavaScript snippet in the survey page we store the email and the user id
 When they finish the survey, they are redirected to the main app and the account is created.
 
 When creating a user account, we do *not* assign a `hack_id` to the user but we wait until the contest is started.
-The `hack_id` is a number between `0` and `2` based on which we create multiple forums inside of the same hack type.
+The `hack_id` is a number based on which we create multiple forums inside of the same hack type.
 The range can be configured in the admin dashboard.
-
-For Purdue, we have one forum (the `hack_id` will be always `0`) and for `Bogota` and `Platzi`, we have three forums for each (the `hack_id` can be `0`, `1` or `2`).
-
-```
-+--------------------+-------------+--------------+
-|       Purdue       |   Bogota    |     Plazi    |
-+--------------------+-------------+--------------+
-|         0          |  0  | 1 | 2 |  0  | 1 | 2  |
-+--------------------+-------------+--------------+
-|                    |     |   |   |     |   |    |
-...
-```
 
 If the user is already registered, they are authenticated based on the existing data.
 
